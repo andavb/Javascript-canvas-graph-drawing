@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Funkcije</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class="container mt-3">
+
+    <select class="form-control mb-3" name="funckije" id="funckije" onselect="narisi(this)">
+      <option value="sin" selected>sin()</option>
+      <option value="cos">cos()</option>
+      <option value="tan">tan()</option>
+      <option value="atan">atan()</option>
+      <option value="acosh">acosh()</option>
+    </select>
+    <canvas id="canvas" width="1105" height="600" style="border:1px solid black;"></canvas>
+  </body>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script type="text/javascript" src="functions.js"></script>
+</html>
